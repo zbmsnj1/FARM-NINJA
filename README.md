@@ -10,8 +10,6 @@
 
 ![image](https://github.com/zbmsnj1/FARM-NINJA/blob/master/screenshot/2.png)
 
-![image](https://github.com/zbmsnj1/FARM-NINJA/blob/master/screenshot/3.png)
 
 ![image](https://github.com/zbmsnj1/FARM-NINJA/blob/master/screenshot/4.png)
 
-![image](https://github.com/zbmsnj1/FARM-NINJA/blob/master/screenshot/5.png)
