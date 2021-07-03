@@ -26,12 +26,33 @@
 
 ### Observation data 
 
-Black ray: 
+* Black ray: 
       to detect the environment
       and collect observation data
        (the distance from wolf to 
 	ray hit point position)
-Tag:
+*  Tag:
       using tag to mark ray-hit
       gameobject (sheep, boss, fence)
+      
+### Reward 
+
+* Eat a sheep:    AddReward(1f);
+     Green ray:
+     when hit sheep      
+
+*  Wolf die:   SetReward(-1f);  Done();
+      1. Red ray:
+      when hit wolf   
+      2. Collision
+      when wolf collision with fence wall 
+      or obstacle fences
+      
+## Training with Proximal Policy Optimization(PPO)
+In reinforcement learning, the goal is to learn a Policy that maximizes reward.
+As we define eat a sheep add 1 reward, after 700k steps, the mean reward is 
+about  11, that means the wolf will eat 11 sheep in average step.
+
+
+![image](https://github.com/zbmsnj1/FARM-NINJA/blob/master/screenshot/7.png)
 
