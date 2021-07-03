@@ -22,4 +22,16 @@
 **Using the same model, we also built a deep reinforcement learning scenario, where the sheep walk randomly, the farmers follow a fixed route to patrol, and the wolf learns to avoid the farmers and eat more sheep.**
 
 
-![image](https://github.com/zbmsnj1/FARM-NINJA/blob/master/screenshot/3.png)
+![image](https://github.com/zbmsnj1/FARM-NINJA/blob/master/screenshot/6.png)
+
+### Observation data 
+
+Black ray: 
+      to detect the environment
+      and collect observation data
+       (the distance from wolf to 
+	ray hit point position)
+Tag:
+      using tag to mark ray-hit
+      gameobject (sheep, boss, fence)
+
