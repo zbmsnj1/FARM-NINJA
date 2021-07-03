@@ -1,20 +1,17 @@
-# Jump_Frog
+# FARM NINJA
 
 
-**Using C(OpenGL and GLUT) to simulate a water surface using sine waves, and a frog can be controled by players. The frog can jump and turn direction. Frog will die if jumping into water.**
-
-### Key
-* left/right: Frog jump angle          (0 - 180)
-* up/down: Frog jump magnitude         (0 - 0.25)
-* f: Toggle filled/wireframe rendering
-* g: Toggle animation on/off
-* o: Toggle OSD on/off
-* r: Respawn
-* +(=)/-: Double/halve wave tesselation
-* ' ' (space): From jump
-* q/Esc: Quit the program
-
-![image](https://github.com/zbmsnj1/Jump_Frog/blob/main/screenshot/jumpfrog.png)
+**A simple game (scene) developed based on Unity3D, controls farmers to drive away wolves who want to eat the flock. Sheep and wolves have their own FSM state machine, and are associated with the animation in Unity. If there are sheep in the range, the wolf will use the A* pathfinding algorithm to find the sheep and eat it. The movement of the sheep has a random and flock cluster mode, which can escape the chase of the wolf or be driven by the farmer. **
 
 
-![image](https://github.com/zbmsnj1/Jump_Frog/blob/main/screenshot/frog.png)
+
+![image](https://github.com/zbmsnj1/FARM-NINJA/blob/master/screenshot/1.png)
+
+
+![image](https://github.com/zbmsnj1/FARM-NINJA/blob/master/screenshot/2.png)
+
+![image](https://github.com/zbmsnj1/FARM-NINJA/blob/master/screenshot/3.png)
+
+![image](https://github.com/zbmsnj1/FARM-NINJA/blob/master/screenshot/4.png)
+
+![image](https://github.com/zbmsnj1/FARM-NINJA/blob/master/screenshot/5.png)
