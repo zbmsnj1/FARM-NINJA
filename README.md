@@ -1,7 +1,7 @@
 # FARM NINJA
 
 
-**A simple game (scene) developed based on Unity3D, controls farmers to drive away wolves who want to eat the flock. Sheep and wolves have their own FSM state machine, and are associated with the animation in Unity. If there are sheep in the range, the wolf will use the A star pathfinding algorithm to find the sheep and eat it. The movement of the sheep has a random and flock cluster mode, which can escape the chase of the wolf or be driven by the farmer.**
+**这是用Unity做的训练游戏AI的场景，一个可被控制的农民，可以前后左右走。羊群是flock状态，可以被农民驱赶或者逃离狼。狼是由Astar寻路算法控制的，开始会在农场周围巡逻，然后自动找离自己最近的羊跑过去，羊身上有血条，被狼吃几口会死。 然后羊狼农民都有自身的状态机，控制各自的动画衔接。A simple game (scene) developed based on Unity3D, controls farmers to drive away wolves who want to eat the flock. Sheep and wolves have their own FSM state machine, and are associated with the animation in Unity. If there are sheep in the range, the wolf will use the A star pathfinding algorithm to find the sheep and eat it. The movement of the sheep has a random and flock cluster mode, which can escape the chase of the wolf or be driven by the farmer.**
 
 
 ![image](https://github.com/zbmsnj1/FARM-NINJA/blob/master/screenshot/1.png)
