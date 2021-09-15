@@ -19,7 +19,7 @@
 
 
 
-**Using the same model, we also built a deep reinforcement learning scenario, where the sheep walk randomly, the farmers follow a fixed route to patrol, and the wolf learns to avoid the farmers and eat more sheep.**
+**这是另外一个场景，一个小地图，里面农民会按设计好的路线巡逻，羊群随机分散，用深度强化学习来训练狼能吃多少羊，吃一个计1分，农民有视野，如果处于农民视野内，则失败，重新开始。所以狼要学会绕开围栏，躲避农民，吃到更多的羊。Using the same model, we also built a deep reinforcement learning scenario, where the sheep walk randomly, the farmers follow a fixed route to patrol, and the wolf learns to avoid the farmers and eat more sheep.**
 
 
 ![image](https://github.com/zbmsnj1/FARM-NINJA/blob/master/screenshot/6.png)
